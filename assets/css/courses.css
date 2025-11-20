@@ -1,0 +1,115 @@
+.page-title {
+font-family: Exo;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+}
+
+.breadcrumb-bar .crumb {
+  text-decoration: none;
+  font-size: 14px;
+  color: #777;
+}
+
+.breadcrumb-bar .crumb.active {
+  color: black;
+  font-weight: 600;
+}
+
+.search-area .icon-btn {
+  width: 20px;
+  cursor: pointer;
+}
+
+.search-box {
+  position: relative;
+  width: 200px;
+}
+
+.search-box input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px 25px 5px 0;
+}
+
+.search-box .search-icon {
+  width: 18px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.search-area .icon-btn {
+  width: 22px;
+  cursor: pointer;
+}
+
+.search-box {
+  position: relative;
+  width: 200px;
+}
+
+.search-box input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px 25px 5px 0;
+}
+
+.search-box .search-icon {
+  width: 18px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .search-area {
+    margin-top: 10px;
+    justify-content: flex-start !important;
+    width: 100%;
+  }
+  
+  .search-box {
+    width: 100%;
+  }
+}
+.pagination-area .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pagination-area .active-num {
+  background: black;
+  color: white;
+}
+
+.pagination-area .arrow {
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .pagination-area .circle {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+

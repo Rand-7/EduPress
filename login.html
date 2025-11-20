@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/courses.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <!-- Font -->
+     <!-- exo -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <!-- jsot -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+        <title>EduPress</title>
+</head>
+<body>
+        <!-- Header -->
+    <header class="header-site">
+  <img src="./assets/img/LOGO.png" alt="logo">
+
+  <nav class="navbar">
+      <ul>
+          <li><a href="index.html" rel="noopener" >Home</a></li>
+          <li><a href="./courses.html" rel="noopener" >Courses</a></li>
+          <li><a href="blog.html" rel="noopener">Blog</a></li>
+          <li><a href="page.html"  rel="noopener">Page</a></li>
+          <li><a href="premium.html"  rel="noopener">Premium Theme</a></li>
+      </ul>
+  </nav>
+
+  <div class="left">
+      <a href="login.html" target="_blank" rel="noopener" class="login-link" >
+        Login / Register
+      </a>
+      <img src="./assets/img/Search.svg" alt="Search">
+  </div>
+
+  <div class="mobile-menu-icon">
+    <img src="./assets/img/bar.png" alt="menu">
+  </div>
+</header>
+    
+<!-- BREADCRUMB -->
+<section class="breadcrumb-bar py-2 px-3" style="background:#f5f5f5;">
+  <div class="container d-flex gap-2 align-items-center">
+    <a href="#" class="crumb">Homepage</a>
+    <span>›</span>
+    <a href="#" class="crumb active">Login / Register</a>
+  </div>
+</section>
+
+<section class="container my-5">
+  <div class="row justify-content-center g-4">
+
+    <!-- LOGIN -->
+    <div class="col-lg-5 col-md-6">
+      <div class="form-box p-4">
+        <h3 class="mb-4 login">Login</h3>
+
+        <input type="text" class="form-control mb-3" placeholder="Email or username*">
+        
+        <div class="position-relative mb-3">
+          <input type="password" class="form-control" placeholder="Password*">
+          <img src="./assets/img/eye.svg" class="eye-icon" alt="">
+        </div>
+
+        <div class="d-flex align-items-center mb-3">
+          <input type="checkbox" class="me-2">
+          <span class="remember">Remember me</span>
+        </div>
+
+        <button class=" login-btn w-100 mb-3">Login</button>
+
+        <a href="#" class="forgot">Lost your password?</a>
+      </div>
+    </div>
+
+    <!-- REGISTER -->
+    <div class="col-lg-5 col-md-6">
+      <div class="form-box p-4">
+        <h3 class="mb-4 login">Register</h3>
+
+        <input type="email" class="form-control mb-3" placeholder="Email*">
+        <input type="text" class="form-control mb-3" placeholder="Username*">
+
+        <div class="position-relative mb-3">
+          <input type="password" class="form-control" placeholder="Password*">
+          <img src="./assets/img/eye.svg" class="eye-icon" alt="">
+        </div>
+
+        <div class="position-relative mb-4">
+          <input type="password" class="form-control" placeholder="Confirm Password*">
+          <img src="./assets/img/eye.svg" class="eye-icon" alt="">
+        </div>
+
+        <button class=" login-btn w-100">Register</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+ <footer class="footer-section py-5">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Logo + Text -->
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-logo mb-3 d-flex align-items-center gap-2">
+          <img src="./assets/img/LOGO.png" alt="EduPress" width="200">
+        </div>
+        <p class="footer-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+
+      <!-- Get Help -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-title mb-3">GET HELP</h5>
+        <ul class="footer-links">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Latest Articles</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Programs -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-title mb-3">PROGRAMS</h5>
+        <ul class="footer-links">
+          <li><a href="#">Art & Design</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">IT & Software</a></li>
+          <li><a href="#">Languages</a></li>
+          <li><a href="#">Programming</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-title mb-3">CONTACT US</h5>
+        <p class="footer-text">
+          Address: 2321 New Design Str, Lorem Ipsum 10 Hudson Yards, USA
+        </p>
+        <p class="footer-text m-0">Tel: + (123) 2500-567-8988</p>
+        <p class="footer-text">Mail: supportlms@gmail.com</p>
+
+        <div class="footer-social d-flex gap-3 mt-2">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-pinterest"></i></a>
+          <a href="#"><i class="bi bi-x"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom text-center mt-4 pt-3">
+      <p class="m-0">Copyright © 2024 LearnPress LMS | Powered by ThimPress</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
